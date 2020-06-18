@@ -80,7 +80,7 @@ class Expenditure{
         document.getElementById("sss").innerHTML=`<h5>Total Expenditure </h5><h5 style="text-align:center;">Rs. ${totalEpenditure}</h5>`;
     }
     else{
-        cardDiv.innerHTML=`Enter Expenditures.`; 
+        cardDiv.innerHTML=`No Expenditures.`; 
         document.getElementById("sss").innerHTML=`<h5>Total Expenditure </h5><h5 style="text-align:center;">Rs. ${totalEpenditure}</h5>`;
     }
 
